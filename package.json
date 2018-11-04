@@ -4,7 +4,8 @@
     "description": "Gatsby plugin for the Fabric UI framework",
     "main": "index.js",
     "scripts": {
-        "format": "prettier --write '**/*.js*'"
+        "format": "prettier --write '**/*.js*'",
+        "build": "babel gatsby-ssr.jsx --out-file gatsby-ssr.js"
     },
     "repository": {
         "type": "git",
@@ -24,11 +25,15 @@
         "@microsoft/load-themed-styles": "^1.8.33"
     },
     "devDependencies": {
-        "prettier": "^1.14.3"
+        "@babel/cli": "^7.1.2",
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/preset-react": "^7.0.0",
+        "prettier": "^1.14.3",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
     },
     "peerDependencies": {
-        "gatsby": "^2.0.0",
-        "office-ui-fabric-react": "^6.0.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
     }
