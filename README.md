@@ -1,6 +1,6 @@
 # gatsby-plugin-fabric-ui
 
-Gatsby plugin for the Fabric UI framework.
+Gatsby plugin for the [Office Fabric UI framework](https://github.com/OfficeDev/office-ui-fabric-react).
 
 ## Installation
 
