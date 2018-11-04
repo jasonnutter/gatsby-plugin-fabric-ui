@@ -2,6 +2,7 @@
     "name": "gatsby-plugin-fabric-ui",
     "version": "1.0.0",
     "description": "Gatsby plugin for the Fabric UI framework",
+    "main": "index.js",
     "scripts": {
         "format": "prettier --write '**/*.js*'"
     },
