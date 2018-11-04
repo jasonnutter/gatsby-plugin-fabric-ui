@@ -5,7 +5,7 @@ Gatsby plugin for the Fabric UI framework.
 ## Installation
 
 ```sh
-npm install gatsby-plugin-fabric-ui
+npm install office-ui-fabric-react gatsby-plugin-fabric-ui
 ```
 
 ### Usage
