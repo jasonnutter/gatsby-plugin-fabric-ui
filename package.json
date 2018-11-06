@@ -2,11 +2,15 @@
     "name": "gatsby-plugin-fabric-ui",
     "version": "1.0.2",
     "description": "Gatsby plugin for the Fabric UI framework",
-    "main": "index.js",
+    "main": "gatsby-ssr.js",
     "scripts": {
         "format": "prettier --write '**/*.js*'",
-        "build": "babel gatsby-ssr.jsx --out-file gatsby-ssr.js"
+        "build": "babel gatsby-ssr.jsx --out-file gatsby-ssr.js",
+        "prepublish": "npm run build"
     },
+    "files": [
+        "gatsby-ssr.js"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jasonnutter/gatsby-plugin-fabric-ui.git"
