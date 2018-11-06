@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-fabric-ui",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Gatsby plugin for the Fabric UI framework",
     "main": "gatsby-ssr.js",
     "scripts": {
