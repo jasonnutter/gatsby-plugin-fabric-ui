@@ -18,6 +18,7 @@
     },
     "keywords": [
         "gatsby",
+        "gatsby-plugin",
         "fabric"
     ],
     "author": "Jason Nutter <jasondnutter@gmail.com>",
