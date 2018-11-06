@@ -4,9 +4,10 @@
     "description": "Gatsby plugin for the Fabric UI framework",
     "main": "gatsby-ssr.js",
     "scripts": {
-        "format": "prettier --write '**/*.js*'",
+        "format": "prettier --write gatsby-ssr.jsx",
         "build": "babel gatsby-ssr.jsx --out-file gatsby-ssr.js",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "test": "npm run build && cd test && npm run build"
     },
     "files": [
         "gatsby-ssr.js"

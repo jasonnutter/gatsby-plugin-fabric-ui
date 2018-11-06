@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "dependencies": {
+        "gatsby": "^2.0.40",
+        "gatsby-cli": "^2.4.4",
+        "gatsby-plugin-fabric-ui": "file:..",
+        "office-ui-fabric-react": "^6.99.0",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0"
+    },
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop"
+    }
+}

@@ -19,8 +19,8 @@ export function replaceRenderer({
         <style
             type="text/css"
             dangerouslySetInnerHTML={{
-                __html: _allStyles,
+                __html: _allStyles
             }}
-        />,
+        />
     ]);
 }
